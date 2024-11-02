@@ -1,0 +1,17 @@
+name: hubClaimPlugin
+version: '1.0-SNAPSHOT'
+main: com.gotunc.hubClaimPlugin.HubClaimPlugin
+api-version: '1.18'
+permissions:
+    hubclaim.break:
+        default: op
+        description: Allows players to break a hub blocks
+    hubclaim.interact:
+        default: op
+        description: Allows players to interact a hub blocks
+    hubclaim.place:
+        default: op
+        description: Allows players to place a hub blocks
+    hubclaim.hit:
+        default: op
+        description: Allows players to hit a hub players
